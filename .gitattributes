@@ -1,0 +1,19 @@
+# Normalize text files
+* text=auto
+
+# KiCad sources diff as text
+*.kicad_pcb   text
+*.kicad_sch   text
+*.kicad_pro   text
+*.kicad_sym   text
+*.kicad_mod   text
+
+# Fabrication outputs: stored byte-for-byte as sent to the fab (no EOL
+# conversion), kept out of diffs and language stats
+hardware/fabrication/**/*.gbr     -text -diff linguist-generated
+hardware/fabrication/**/*.drl     -text -diff linguist-generated
+hardware/fabrication/**/*.gbrjob  -text -diff linguist-generated
+hardware/fabrication/**/ibom.html -text -diff linguist-generated
+
+*.png binary
+*.pdf binary

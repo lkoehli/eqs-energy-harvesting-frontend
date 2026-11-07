@@ -1,0 +1,35 @@
+# Setup 6 · On-body cold-start (docs/measurement-setups/06-on-body.md)
+# SMU holds the storage pads at V_OVDIS = 2.2 V (emulated depleted storage).
+# Sweep upwards only: AEM30300 start-up is a one-shot event.
+
+[run]
+name = "onbody-coldstart"
+description = "Full-chain start-up and delivered power on the body channel"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+forward_path = "body: forearm"
+environment = "outdoor"
+r_zmpp_ohm = 8200
+
+[source]
+mode = "manual"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 10
+averages = 15
+sample_delay_s = 0.05
+
+[sweep]
+kind = "hold"
+hold_voltage_v = 2.2
+i_compliance_a = 50e-3
+current_range_a = 100e-6
+precharge = { current_range_a = 10e-3, duration_s = 4.0 }
+amplitudes_vpp = { start = 0.6, stop = 3.3, step = 0.3 }
+ascending_only = true
+frequency_hz = 10e6
+settle_s = 3.0             # give the PMIC time to attempt start-up
+start_current_a = 0.5e-6   # harvest current that counts as "PMIC running"

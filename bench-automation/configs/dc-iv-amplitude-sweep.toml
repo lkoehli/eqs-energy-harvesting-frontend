@@ -1,0 +1,35 @@
+# Setup 1 · DC-coupled I–V sweep (docs/measurement-setups/01-dc-coupled-iv-sweep.md)
+# Run once per frequency: change frequency_hz to 1e6, 10e6, 21e6.
+
+[run]
+name = "dc-iv-amplitude-sweep"
+description = "Rectifier output I-V vs input amplitude, common ground"
+
+[dut]                      # free-form metadata, copied into the run's JSON
+topology = "half"          # half | full
+transformer = "WBC16-1TL"
+forward_path = "direct"
+return_path = "galvanic"
+
+[source]
+mode = "remote"            # generator scripted over USB (allowed: setup is DC-coupled)
+address = "USB0::0x0957::0x4B07::<SERIAL>::0::INSTR"
+settle_s = 0.5
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 1
+averages = 21
+sample_delay_s = 0.01
+
+[sweep]
+kind = "iv"
+outer = "amplitude"
+amplitudes_vpp = { start = 0.010, stop = 0.300, step = 0.010 }
+frequency_hz = 10e6
+current_start_a = 0.0
+current_stop_a = -80e-6    # towards short circuit (SMU sinks). May also be a list with one
+                           # end point per amplitude, so each sweep just passes V = 0.
+points = 70
+settle_s = 0.3
+v_compliance_v = 3.0

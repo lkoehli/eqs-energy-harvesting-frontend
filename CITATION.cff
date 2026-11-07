@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this design, please cite it as below."
+type: software
+title: "EQS Energy-Harvesting Frontend"
+abstract: >-
+  Hardware design files, measurement-setup documentation and bench automation
+  for a discrete EQS-HBC energy-harvesting frontend built from commercial
+  off-the-shelf components.
+authors:
+  - family-names: "Köhli"
+    given-names: "Lucas"
+    affiliation: "ETH Zürich"
+repository-code: "https://github.com/lkoehli/eqs-energy-harvesting-frontend"
+keywords:
+  - energy harvesting
+  - human body communication
+  - electro-quasistatic
+  - wearables
+  - PCB design
+references:
+  - type: thesis
+    title: "Toward Battery-Free Body-attached Sensor Nodes: Design and Characterization of an EQS Energy-Harvesting Frontend"
+    authors:
+      - family-names: "Köhli"
+        given-names: "Lucas"
+    institution:
+      name: "ETH Zürich, Center for Project-Based Learning"
+    year: 2026
+    thesis-type: "Bachelor's thesis"

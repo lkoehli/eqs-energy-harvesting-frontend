@@ -1,0 +1,8 @@
+mode,recording,note,low_mean_uA,low_median_uA,active_median_uA,low_time_s
+Sleep,ppk-20260422T145749.csv,single-shot,969.131,981.151,2131.106,3.0814
+Stop 1,stop1.csv,single-shot,61.3315,60.46,2233.038,1.5754
+Stop 2,stop2.csv,single-shot,4.3719,4.308,2233.038,1.5754
+Standby,stand-by.csv,"single-shot, CPU runs with the LED off after wake-up",1.1509,1.109,2201.979,1.2337
+Stop 2,stop2(5s_cycle).csv,5 s cycle,4.6768,4.615,2228.599,9.7667
+Stop 3,stop3(5s_cycle).csv,5 s cycle,2.8567,2.73,2250.799,9.7749
+Standby,Stand_by(5s_cycle).csv,5 s cycle,1.1084,1.109,2228.599,9.9012

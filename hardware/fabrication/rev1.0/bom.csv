@@ -1,0 +1,44 @@
+References,Qty,Value,Footprint,Manufacturer,MPN,DigiKey PN,Notes
+C1 C5 C6 C7 C9 C10 C11 C12 C19 C21 C23 C28 C29 C37,14,100n,CAPC1005X55N,,,,Generic passive (lab stock)
+C2,1,1u,CAPC1005X55N,,,,Generic passive (lab stock)
+C3 C4,2,2.2u,CAPC1005X70N,,,,Generic passive (lab stock)
+C8 C14 C17 C20 C22,5,10u,CAPC1005X70N,,,,Generic passive (lab stock)
+C13 C39,2,10n,CAPC1005X55N,,,,Generic passive (lab stock)
+C15,1,100u,CAPC3216X190N,,,,DigiKey 445-6007 (per original BOM)
+C16,1,4.7u,RES_ERJ2RKF1000X,,,,Placed on a 0402 resistor land pattern
+C18,1,22u,CAPC1608X100N,,,,Murata GRM188 series
+C24,1,1uF,CAP0402,Murata,GRM155R61E105KA12J,,
+C25 C26 C27,3,47n,CAPC1005X55N,,,,Generic passive (lab stock)
+C30 C33,2,3p,CAPC1005X70N,,,,Murata GRM1555 series (C0G)
+C31 C34 C35,3,1n,CAPC1005X55N,,,,Generic passive (lab stock)
+C32 C36,2,4.7n,CAPC1005X55N,,,,Generic passive (lab stock)
+D1 D2 D3 D4,4,SMS7630-079LF,Diode_Dual_SC79_SOD882,Skyworks Solutions,SMS7630-079LF,,
+D5 D6 D7,3,LED_SML-P11UTT86,SML-P11UTT86,ROHM,SML-P11UTT86,,
+FB1,1,470R,FB0402,Murata,BLM15PX471SZ1D,,
+J1,1,FTSH-107-01-L-DV-K,CON14_2X7_DUK_FTSH_SAI,Samtec,FTSH-107-01-L-DV-K,,
+J2 J3 J4 J5,4,BCT1812M101AG,CeraCharge_BCT1812M101AG,TDK,BCT1812M101AG,,"Solid-state storage cells, 2S2P"
+J6 J10,2,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,,,,2.54 mm pin header
+J7 J9 J11 J13 J14 J15,6,RFPC-SMA28-F,GRADCONN_RFPC-SMA28-F,GradConn,RFPC-SMA28-F,,
+J8,1,Conn_01x12_Pin,PinHeader_2x06_P2.54mm_Vertical,,,,2.54 mm pin header
+J12,1,Conn_01x10_Pin,PinHeader_2x05_P2.54mm_Vertical,,,,2.54 mm pin header
+J16,1,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,,,,2.54 mm pin header
+L1 L2,2,2.2uH,IND0806,Samsung Electro-Mechanics,CIGT201610EH2R2MNE,,
+L3,1,DFE252010F-100M=P2,INDC2520X100N,Murata,DFE252010F-100M=P2,,
+L4 L5,2,LQH32NH180J23L,IND_LQH32NH180J23L,Murata,LQH32NH180J23L,,
+R1 R14,2,100R,RES_ERJ2RKF1000X,,,,Generic passive (lab stock)
+R2,1,10k,RES_ERJ2RKF1002X,,,,Generic passive (lab stock)
+R3 R4 R5 R6 R7 R8 R9 R10 R11 R22 R23 R25 R26 R27 R28 R29,16,0R,RES_ERJ-2GE0R00X,,,,0 Ω link: AEM30300 strap or current-measurement point (see docs/board-configuration.md)
+R12 R13,2,470R,RES_ERJ2RKF4700X,,,,Generic passive (lab stock)
+R15 R16 R17 R18,4,4.7k,RES_ERJ2RKF4701X,,,,Generic passive (lab stock)
+R19 R20 R21,3,10R,RESC1005X35N,,,,Vishay CRCW0402 series
+R24 R30,2,100k,RC0402N_PAN,,,,Generic passive (lab stock)
+R31,1,680R,RESC1005X35N,,,,Generic passive (lab stock)
+SW1,1,Tactile switch,430182050816,Würth Elektronik,430182050816,,
+T1 T2,2,WBC16-1TL,T_WBC,Coilcraft,WBC16-1TL,,Footprint also fits other Coilcraft WBC ratios / custom-wound transformer
+U1,1,STM32U385CGU6Q,UFQFPN-48_STM,STMicroelectronics,STM32U385CGU6Q,,
+U2,1,TPS62840DLCR,VSON8_2P1X1P6_TEX,Texas Instruments,TPS62840DLCR,,
+U3,1,MAX30009ENA+,21-100494_N252C2&plus_1_MXM,Analog Devices (Maxim),MAX30009ENA+,,
+U4,1,MAX5395LATA+,21-0168_T822&plus_2C_MXM,Analog Devices (Maxim),MAX5395LATA+,,
+U5,1,ISM330IS,QFN_330ISN_STM,STMicroelectronics,ISM330IS,,
+U6,1,AEM30300,QFN40P400X400X85-29N-D,e-peas,AEM30300,,
+U7,1,SiP32431DR3,SOT-363_SC-70-6,Vishay,SiP32431DR3,,

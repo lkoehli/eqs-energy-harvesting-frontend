@@ -1,0 +1,31 @@
+# Setup 3 · Harvested power vs R_ZMPP (docs/measurement-setups/03-harvested-power-zmpp.md)
+# SMU on the storage pads (cells not fitted). Repeat per R_ZMPP; record its value below.
+
+[run]
+name = "storage-power-zmpp"
+description = "Power delivered into storage at 2.6 V vs input amplitude"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+r_zmpp_ohm = 0             # <-- value of the resistor between ZMPP and SRC
+
+[source]
+mode = "remote"
+address = "USB0::0x0957::0x4B07::<SERIAL>::0::INSTR"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 10
+averages = 15
+sample_delay_s = 0.05
+
+[sweep]
+kind = "hold"
+hold_voltage_v = 2.6
+i_compliance_a = 50e-3
+current_range_a = 100e-6   # phase 2: sensitive measurement range
+precharge = { current_range_a = 10e-3, duration_s = 4.0 }   # phase 1
+amplitudes_vpp = { start = 0.010, stop = 0.300, step = 0.010 }
+frequency_hz = 10e6
+settle_s = 5.0

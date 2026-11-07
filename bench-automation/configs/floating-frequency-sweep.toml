@@ -1,0 +1,29 @@
+# Setup 5 · Floating-ground frequency sweep (docs/measurement-setups/05-floating-ground-sweeps.md)
+# For the repeatability series: 1 MHz steps, forward path 0 Ω / 1 kΩ / model.
+
+[run]
+name = "floating-frequency-sweep"
+description = "Rectifier I-V vs frequency at 1.2 Vpp, capacitive return path"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+forward_path = "model: 10k || 500p + 200R"
+return_path = "capacitive (floating)"
+
+[source]
+mode = "manual"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 1
+averages = 1
+
+[sweep]
+kind = "iv"
+outer = "frequency"
+frequencies_hz = { start = 1e6, stop = 21e6, step = 0.5e6 }
+amplitude_vpp = 1.2
+current_stop_a = -200e-6
+points = 50
+settle_s = 0.15

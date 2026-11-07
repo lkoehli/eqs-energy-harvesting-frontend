@@ -1,0 +1,164 @@
+(footprint "RESC1005X35N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.29 -0.88 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f10448f-8a29-49d4-bf97-264f94afefc2")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10R"
+		(at 2.04 0.88 0)
+		(layer "F.Fab")
+		(uuid "67902fa6-a651-47c7-ae5c-0fc01ae4dbdf")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "780bab15-d927-4297-8d1c-a27d5304e15b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ae4c169-0374-4c78-98e0-eb43cd780c7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "PROD_ID" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67b308bd-25b1-419c-bd40-984d3d812f07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "R_*")
+	(sheetname "/MCU/")
+	(sheetfile "STM32U385CGU6Q .kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.965 -0.55)
+		(end 0.965 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d95598be-55b6-4b12-b20c-6a7e5c402ca5")
+	)
+	(fp_line
+		(start -0.965 0.55)
+		(end -0.965 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a265032e-d538-4824-bdcf-af72d4a8d913")
+	)
+	(fp_line
+		(start -0.965 0.55)
+		(end 0.965 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ff2fdd8-76e0-442d-84e7-88ca039a7630")
+	)
+	(fp_line
+		(start 0.965 0.55)
+		(end 0.965 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a0aed57-18b1-4502-ac97-a6ce84b87452")
+	)
+	(fp_line
+		(start -0.55 0.28)
+		(end -0.55 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b62e6f3b-021e-44e0-874a-01ffd29f85bd")
+	)
+	(fp_line
+		(start 0.55 -0.28)
+		(end -0.55 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61443ee1-6724-412b-8863-a97599f22ad0")
+	)
+	(fp_line
+		(start 0.55 0.28)
+		(end -0.55 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88b51dd4-32df-475a-8544-40512413a556")
+	)
+	(fp_line
+		(start 0.55 0.28)
+		(end 0.55 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "301f46ad-da33-4ab2-b6b7-cfbbdee00cf8")
+	)
+	(pad "1" smd rect
+		(at -0.435 0)
+		(size 0.56 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8675b92b-d72d-4e55-b9fc-fadc99a3fd94")
+	)
+	(pad "2" smd rect
+		(at 0.435 0)
+		(size 0.56 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ed899b9d-bd46-4e37-ad8c-b27f3e7002bf")
+	)
+	(embedded_fonts no)
+)

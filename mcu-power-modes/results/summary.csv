@@ -1,0 +1,7 @@
+mode,current_uA,source,power_uW_at_3V3
+"Active (96 MHz, LED on)",2235.999,5 s cycle recordings,7378.7967
+Sleep,969.131,ppk-20260422T145749.csv,3198.1324
+Stop 1,61.3315,stop1.csv,202.394
+Stop 2,4.6768,stop2(5s_cycle).csv,15.4336
+Stop 3,2.8567,stop3(5s_cycle).csv,9.427
+Standby,1.1084,Stand_by(5s_cycle).csv,3.6578

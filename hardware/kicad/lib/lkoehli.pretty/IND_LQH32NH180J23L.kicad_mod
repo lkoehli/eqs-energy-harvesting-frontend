@@ -1,0 +1,479 @@
+(footprint "IND_LQH32NH180J23L"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.135 -2.405 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ba85053-b67e-40f5-8432-e748bd949183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LQH32NH180J23L"
+		(at 8.39 2.405 0)
+		(layer "F.Fab")
+		(uuid "a0555753-0fcc-4ccc-a012-33aff1cd3907")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1c2d28d-9525-4ac4-9332-4a2c65d554de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor with Inductance: 18uH Tol. +/-5%, Package: 1210 (3225)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1326d3ad-ae11-4d56-bc38-8623047a1171")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89fa1e9-59b2-4830-a44c-282c20ca34c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "2.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e422ff4-5cef-4411-bdf3-da5cc7b61a67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "NONSTANDARD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e13f3f5f-914c-419b-a36f-5f4f13d0373c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e6f4987-fcb4-4d88-ac89-ce364f340701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/LQH32NH180J23L/Murata/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbefdac3-e8ec-4e46-863c-a7b410d6cf3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a615bbc0-9c34-43ec-b60e-2d3dc9516c75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a5e3edc-9919-40dc-aa0c-629fac82f11f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH32NH180J23L/Murata/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5347cd0a-667e-490a-bc38-1664a2dfed98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "LQH32NH180J23L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "073677c7-b72e-4777-8da0-760d5520b154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3217914-b076-4e1c-9677-089f26be1342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14fbb0dd-7e59-4042-9c7b-f7584c45f855")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5687ace7-f41b-43bd-8efb-27399bf3264f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b19a79e-0352-4ada-ba47-226367118843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10d024cf-d397-4c1e-8247-6941c49c0a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c324abb9-6e40-4051-a12f-c47162a58f2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "137740d0-c650-48d2-ae81-9289b46060f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0fe2bd3-ea95-48f6-bae8-f21de73e4f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PROD_ID" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caa831ce-ea24-41be-9259-cfcb7c110915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Rectifier/")
+	(sheetfile "Rectifier.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -2.85 -0.6) (xy -1.75 -0.6) (xy -1.75 -1.1) (xy -0.55 -1.1) (xy -0.55 1.1) (xy -1.75 1.1) (xy -1.75 0.6)
+			(xy -2.85 0.6)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "265b38fa-c466-455c-8b4b-f01359a0d4d3")
+	)
+	(fp_poly
+		(pts
+			(xy 0.55 -1.1) (xy 1.75 -1.1) (xy 1.75 -0.6) (xy 2.85 -0.6) (xy 2.85 0.6) (xy 1.75 0.6) (xy 1.75 1.1)
+			(xy 0.55 1.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "2fbe27a5-7abd-4df8-a8e0-cec55e80b846")
+	)
+	(fp_line
+		(start -1.6 -1.3135)
+		(end 1.6 -1.3135)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a7b98ef-d596-4415-b33e-3a0aa230822e")
+	)
+	(fp_line
+		(start 1.6 1.3135)
+		(end -1.6 1.3135)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb4a18fc-0ac2-40c7-b042-7686cb05680c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.65 -1) (xy -0.65 -1) (xy -0.65 1) (xy -1.65 1) (xy -1.65 0.5) (xy -2.75 0.5) (xy -2.75 -0.5)
+			(xy -1.65 -0.5)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e3d12dc7-b68f-4f8a-aa79-06c548f88316")
+	)
+	(fp_poly
+		(pts
+			(xy 1.65 1) (xy 0.65 1) (xy 0.65 -1) (xy 1.65 -1) (xy 1.65 -0.5) (xy 2.75 -0.5) (xy 2.75 0.5) (xy 1.65 0.5)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "7d5bbf9b-c501-402d-935c-2f88afdd5720")
+	)
+	(fp_line
+		(start -3 -1.5)
+		(end 3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f217136d-1641-46d9-8aa4-35736d53f074")
+	)
+	(fp_line
+		(start -3 1.5)
+		(end -3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff26f51c-e171-4da2-8c7f-4f72898fbd2f")
+	)
+	(fp_line
+		(start 3 -1.5)
+		(end 3 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c17ef7ff-fab7-4f04-affd-5df5dde601bc")
+	)
+	(fp_line
+		(start 3 1.5)
+		(end -3 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "552ff442-36b0-48cd-877c-842edf0ff456")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89f4188c-30f7-4174-ab58-1ad9479d66bc")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b23fc67-a67f-4660-8167-4da372031cb5")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5279be5e-f804-429d-bcc8-6369afed7321")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40a56537-dae1-4eb9-8932-26a15a558e38")
+	)
+	(pad "1" smd custom
+		(at -1.15 0)
+		(size 1 2)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1) (xy 0.5 -1) (xy 0.5 1) (xy -0.5 1) (xy -0.5 0.5) (xy -1.6 0.5) (xy -1.6 -0.5) (xy -0.5 -0.5)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "b6fb0b77-06a9-4b76-856e-cf00d92e465d")
+	)
+	(pad "2" smd custom
+		(at 1.15 0)
+		(size 1 2)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5 1) (xy -0.5 1) (xy -0.5 -1) (xy 0.5 -1) (xy 0.5 -0.5) (xy 1.6 -0.5) (xy 1.6 0.5) (xy 0.5 0.5)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "1b3b21e1-4213-45cc-ab40-a5b24e454025")
+	)
+	(embedded_fonts no)
+)

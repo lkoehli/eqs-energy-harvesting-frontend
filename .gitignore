@@ -1,0 +1,40 @@
+# --- KiCad -----------------------------------------------------------------
+*-backups/
+*.kicad_prl
+*.lck
+\#auto_saved_files#
+_autosave-*
+fp-info-cache
+*.bak
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+~*.lck
+# local plot / export output (versioned outputs live in hardware/fabrication/revX.Y)
+hardware/fabrication/*.gbr
+hardware/fabrication/*.drl
+hardware/fabrication/*.gbrjob
+
+# --- Measurement data (results are not published yet) ----------------------
+data/
+bench-automation/data/
+*.s2p
+*.s1p
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- OS / editors -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

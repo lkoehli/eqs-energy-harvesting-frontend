@@ -1,0 +1,30 @@
+# Setup 5 · Floating-ground amplitude sweep (docs/measurement-setups/05-floating-ground-sweeps.md)
+# Generator set by hand (no USB!). SMU + laptop on battery. Run at 1, 10 and 21 MHz.
+
+[run]
+name = "floating-amplitude-sweep"
+description = "Rectifier I-V vs amplitude, capacitive return path, forward-path model"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+forward_path = "model: 10k || 500p + 200R"
+return_path = "capacitive (floating)"
+
+[source]
+mode = "manual"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 1
+averages = 21
+sample_delay_s = 0.01
+
+[sweep]
+kind = "iv"
+outer = "amplitude"
+amplitudes_vpp = { start = 0.05, stop = 1.20, step = 0.05 }
+frequency_hz = 10e6
+current_stop_a = -80e-6
+points = 70
+settle_s = 0.3

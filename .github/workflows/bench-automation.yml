@@ -1,0 +1,28 @@
+name: bench-automation
+
+on:
+  push:
+    paths: ["bench-automation/**", ".github/workflows/bench-automation.yml"]
+  pull_request:
+    paths: ["bench-automation/**", ".github/workflows/bench-automation.yml"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.13"]
+    defaults:
+      run:
+        working-directory: bench-automation
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: pytest -q
+      - name: Dry-run every measurement configuration
+        run: for f in configs/*.toml; do hbcbench run "$f" --simulate --out "$RUNNER_TEMP/dry"; done

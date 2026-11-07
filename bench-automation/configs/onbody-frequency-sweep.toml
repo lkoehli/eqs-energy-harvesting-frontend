@@ -1,0 +1,29 @@
+# Setup 6 · On-body frequency response (docs/measurement-setups/06-on-body.md)
+# Forearm (30 cm) or arm-to-leg; indoors / outdoors. Amplitudes used: 1.2, 2.4, 3.3 Vpp.
+
+[run]
+name = "onbody-frequency-sweep"
+description = "Rectifier I-V vs frequency with the body as channel"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+forward_path = "body: forearm, 30 cm"
+environment = "outdoor"
+
+[source]
+mode = "manual"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 1
+averages = 1
+
+[sweep]
+kind = "iv"
+outer = "frequency"
+frequencies_hz = { start = 1e6, stop = 21e6, step = 1e6 }
+amplitude_vpp = 3.3
+current_stop_a = -200e-6
+points = 50
+settle_s = 0.15

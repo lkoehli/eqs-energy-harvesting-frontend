@@ -1,0 +1,30 @@
+# Setup 2 · Rectifier cold-start threshold (docs/measurement-setups/02-rectifier-coldstart-threshold.md)
+# The SMU holds the rectifier output at the AEM30300 cold-start voltage.
+
+[run]
+name = "rectifier-coldstart-threshold"
+description = "Power at 275 mV vs input amplitude; finds the 3 uW crossing"
+
+[dut]
+topology = "half"
+transformer = "WBC16-1TL"
+
+[source]
+mode = "remote"
+address = "USB0::0x0957::0x4B07::<SERIAL>::0::INSTR"
+
+[smu]
+address = "USB0::0x0957::0xCE18::<SERIAL>::0::INSTR"
+nplc = 1
+averages = 51              # heavy averaging for sub-µA resolution
+sample_delay_s = 0.01
+
+[sweep]
+kind = "hold"
+hold_voltage_v = 0.275
+i_compliance_a = 1e-3
+current_range_a = 1e-3
+amplitudes_vpp = { start = 0.010, stop = 0.300, step = 0.005 }   # refine to 1 mV steps around the crossing
+frequency_hz = 10e6        # run at 1, 10 and 21 MHz
+settle_s = 1.0
+power_thresholds_w = [3e-6]

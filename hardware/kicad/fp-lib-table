@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lkoehli")(type "KiCad")(uri "${KIPRJMOD}/lib/lkoehli.pretty")(options "")(descr "Project footprints (vendor-derived and custom)"))
+)
